@@ -1,0 +1,137 @@
+/*Services */
+
+.services-cont{
+
+
+}
+
+.sevices-item{
+  
+    float: left;
+    width: 30%;
+    padding:  20px 15px 30px 70px;
+    border: solid 1px #e8e8e8 ;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sevices-item .icon{
+    position: absolute;
+    left: 15px;
+    top : 20px;
+    color: #6195FF;
+}
+
+
+
+.sevices-item .service-item-title{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color 0.5s;
+}
+
+.sevices-item .service-item-desc{
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #999;
+
+}
+
+.sevices-item.mg{
+    margin : 0 5%;
+}
+
+.sevices-item:hover .service-item-title{
+
+    color: #fff;
+}
+
+
+/*Price*/
+
+.price .section-header{
+
+    text-align: left;
+}
+
+.price .section-header .line{
+
+    margin : 0;
+    margin-bottom: 70px;
+}
+
+
+.price {
+
+    background-color: #f9f9f9;
+}
+
+.price-item{
+
+    float : left;
+    width : 50%;
+}
+
+.price-item .price-desc{
+    text-align: left;
+    color: #999;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width : 90%;
+
+}
+
+.price-item img{
+
+    width: 100%;
+}
+
+.price-item li{
+
+    text-align: left;
+    color: #999;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.price-item li i{
+
+    color: #6195FF;
+    margin-right: 5px;
+    border: 1px solid #6195FF;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.price-item .bullets{
+    text-align: center;
+   
+
+}
+
+.price-item .bullets li{
+
+    width: 15px;
+    height: 15px;
+    background-color: #999;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: background-color 0.1s;
+  
+}
+
+.price-item .bullets li.active{
+
+    background-color: #6195FF;
+}
+
+.price-item .bullets li:hover{
+
+    background-color : #6195FF;
+}

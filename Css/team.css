@@ -1,0 +1,92 @@
+/*Team-section*/
+
+.team-item{
+
+    width : 30%;
+    background-color: #e8e8e8;
+    padding: 40px 5px;
+    text-align: center;
+    float: left;
+}
+
+.team-item .team-img{
+    width: 90%;
+    margin: auto;
+}
+
+.team-item .team-img img{
+
+    width : 100%;
+}
+
+.team-item .team-name  {
+
+    text-transform: capitalize;
+    margin : 10px;
+    transition:  color 1s;
+}
+
+.team-item .team-desc{
+
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
+    transition:  color 1s;
+}
+
+.team-img{
+
+    position: relative;
+}
+
+.team-item.bt-efect{
+
+    z-index: 1;
+}
+
+.team-img .team-layer{
+
+    position: absolute;
+    top :0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition:  opacity 0.5s ,  visibility 0.5;
+}
+
+.team-img .team-layer i{
+    margin-left: auto;
+    color: #fff;
+    background-color: #6195FF;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: block;
+    line-height: 60px;
+}
+
+
+
+.team-item:hover .team-layer{
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-item:hover .team-name {
+
+    color: #fff;
+}
+
+.team-item:hover .team-desc{
+
+    color: #6195FF;
+}
+
+.team-item.mg{
+
+    margin : 0 5%;
+}

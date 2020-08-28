@@ -1,0 +1,49 @@
+/*Coments-section*/
+
+.coments{
+    position: relative;
+    height: 400px;
+    background-image: url(../images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.coments .coms-cont{
+
+    padding: 100px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.coments .coms-item{
+width: 50%;
+float: left;
+color: #fff;
+}
+
+.coms-item .coms-img{
+
+    padding: 20px 2px 40px 100px;
+    position: relative;
+
+}
+
+.coms-item .coms-img img{
+    position: absolute;
+    left: 10px;
+    top : 10px;
+    border-radius: 50%;
+
+}
+
+.coms-item .coms-img .coms-titel{
+    text-transform: uppercase;
+    color: #6195FF;
+    font-size: 14px;
+}
+
+
+.coms-item .coms-img .coms-name{
+
+    text-transform: capitalize;
+}

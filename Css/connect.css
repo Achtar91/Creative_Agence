@@ -1,0 +1,103 @@
+/*contact-section*/
+
+
+
+.contact-how-item{
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.contact-how-item .icon{
+    color: #6195FF;
+    margin-bottom:10px ;
+}
+
+.contact-how-item .contact-how-name{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.contact-how-item .contact-how-info{
+
+    color: #999;
+}
+
+.contact-how-item.mg{
+
+    margin: 0 5%;
+}
+
+.contact-direct{
+
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+.contact-direct-part1 .contact-direct-name{
+
+    width: 31%;
+    height: 37px;  
+}
+
+.contact-direct-part1 .contact-direct-email{
+
+    width: 31%;
+    height: 37px;
+    margin-left: 10px;
+    
+   
+}
+
+input[type="text"], input[type="email"], input[type="password"],
+ input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea{
+
+    background-color: #F4F4F4;
+    border: none;
+    font-size: 14px;
+    border-bottom: 2px solid #EEE;
+    color: #354052;
+    padding: 0 10px;
+    opacity: 0.5;
+    transition:  0.2s opacity;
+    font-size: 17px;
+    font-family: inherit;
+ }
+
+ input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover,
+ input[type="number"]:hover, input[type="date"]:hover, input[type="url"]:hover, input[type="tel"], textarea:hover{
+
+    opacity: 10;
+    color: black;
+ }
+
+ .contact-direct-sub, .contact-texta{
+    display: block;
+    margin-top: 20px;
+ }
+
+ .contact-direct-sub{
+
+    width: 63%;
+    height: 37px;
+    margin: 20px auto 20px auto;
+ }
+
+ .contact-texta{
+    margin: 20px auto 20px auto;
+    width: 63%;
+
+ }
+
+ .btn-mess{
+    margin-top: 10px;
+    border: 0;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #6195FF;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+ }

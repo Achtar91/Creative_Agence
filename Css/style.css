@@ -1,0 +1,156 @@
+
+/* blue color : #6195FF; */
+
+/* Comon things 
+1. hover efect (left-rigth | up-down)
+2.Container
+3.section heder
+4.section pading
+5. hover opecity  */
+
+
+/* Navebar */
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0,0,0,0.6);
+}
+
+.continer{
+    margin : auto;
+    width : 80%;
+}
+
+.header .logo{
+    width : 40%;
+    float: left;
+} 
+
+.header .logo img{
+
+    width : 20%;
+    margin-top: 15px;
+}
+
+.header .nav{
+
+    width : 60%;
+    list-style: none;
+    float : left;
+    text-align: right;
+}
+
+.header .nav > li{
+
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+  
+    
+}
+
+.header .nav > li > a{
+
+    color : #fff;
+    display: block;
+    padding: 30% 15%;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+.header .nav > li > a:hover{
+    opacity: 0.8;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+
+.header-cont{
+
+    /*overflow: hidden;*/
+}
+
+.header .nav > li  > a.active:after,
+.header .nav > li  > a:after{
+
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:#6195FF; 
+    transition: width 0.5s;
+}
+
+.header .nav > li  > a:after{
+
+    width: 0;
+}
+
+.header .nav > li  > a:hover:after{
+    width: 140%;
+}
+
+.header .nav  > li > a.active:after{
+
+    width : 140%;
+}
+
+
+.dropdown{
+
+    position: relative;
+}
+
+
+.dropdown-menu{
+
+    position: absolute;
+    list-style: none;
+    background-color: #6195FF;
+    width: 150px;
+    text-align: center;
+    left: -70%;
+    top : 80%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s , visibility 0.5s;
+    
+}
+
+.dropdown-menu a{
+
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu{
+
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
